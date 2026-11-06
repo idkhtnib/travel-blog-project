@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Блог о путешествиях | Главная</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Блог о путешествиях</h1>
+    <nav aria-label="Главная навигация">
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#articles">Статьи</a></li>
+        <li><a href="#about">О блоге</a></li>
+        <li><button class="theme-btn" id="themeBtn" type="button">🌙 Темная тема</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section id="articles">
+      <h2>Публикации</h2>
+      <div class="search-container">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="Введите название статьи для поиска..."
+          aria-label="Поиск статей по названию, тексту или тегам"
+        >
+      </div>
+      <div id="postsContainer" aria-live="polite"></div>
+    </section>
+
+    <aside id="about">
+      <h3>О блоге</h3>
+      <p>Здесь собраны заметки о поездках, интересных местах и небольших путешествиях.</p>
+
+      <h3>Идеи для поездок</h3>
+      <p>Выбирайте направление, изучайте статьи и сохраняйте вдохновение для следующего маршрута.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>© 2026 Блог о путешествиях</p>
+    <p>Учебный проект по HTML, CSS и JavaScript</p>
+  </footer>
+</body>
+</html>
